@@ -1,0 +1,29 @@
+.popup__container_text {
+    border-bottom: 1px solid rgba( 0, 0, 0, 15%);
+    min-width: 358px;
+    margin-bottom: 30px;
+    background: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 auto 30px auto;
+}
+
+.popup__container_text:last-of-type {
+    margin-bottom: 48px;
+}
+
+
+@media screen and (max-width: 530px) {
+    .popup__container_text {
+        min-width: 238px;
+    }
+
+    .popup__container_text:last-of-type {
+        margin-bottom: 45px;
+    }
+}

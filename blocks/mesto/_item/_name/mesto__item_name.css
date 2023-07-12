@@ -1,0 +1,10 @@
+.mesto__item_name {
+    margin: 25px auto 31px 21px;
+    line-height: 29.05px;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+    font-weight: 900;
+}
