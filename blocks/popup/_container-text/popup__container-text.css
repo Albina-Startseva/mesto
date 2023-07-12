@@ -1,4 +1,4 @@
-.popup__container_text {
+.popup__container-text {
     border-bottom: 1px solid rgba( 0, 0, 0, 15%);
     min-width: 358px;
     margin-bottom: 30px;
@@ -13,17 +13,17 @@
     margin: 0 auto 30px auto;
 }
 
-.popup__container_text:last-of-type {
+.popup__container-text:last-of-type {
     margin-bottom: 48px;
 }
 
 
 @media screen and (max-width: 530px) {
-    .popup__container_text {
+    .popup__container-text {
         min-width: 238px;
     }
 
-    .popup__container_text:last-of-type {
+    .popup__container-text:last-of-type {
         margin-bottom: 45px;
     }
 }
