@@ -1,5 +1,5 @@
 .popup__container-text {
-    border-bottom: 1px solid rgba( 0, 0, 0, 15%);
+    border-bottom: 1px solid rgba( 0, 0, 0, .2);
     min-width: 358px;
     margin-bottom: 30px;
     background: none;
@@ -11,6 +11,7 @@
     border-left: none;
     border-right: none;
     margin: 0 auto 30px auto;
+    line-height: 16.94px;
 }
 
 .popup__container-text:last-of-type {

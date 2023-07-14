@@ -12,3 +12,7 @@
 .mesto__item-btn:hover {
     opacity: 0.5;
 }
+
+.mesto__item-btn:active {
+    background-image: url(../../../images/like_black.svg);
+}
