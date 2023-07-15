@@ -22,6 +22,7 @@
 @media screen and (max-width: 530px) {
     .popup__container-text {
         min-width: 238px;
+        height: 27px;
     }
 
     .popup__container-text:last-of-type {

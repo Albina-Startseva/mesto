@@ -1,13 +1,19 @@
 
 
+
 document.querySelector('.profile__info-button').addEventListener('click', function () {
-  document.querySelector('.popup').classList.add('popup__opened');
+  let namePage = document.querySelector('.profile__info-name').value;
+  let descriptionPage = document.querySelector('.profile__info-description').value;
+  document.querySelector('input[name="firstName"]').textContent = namePage;
+  document.querySelector('input[name="job"]').textContent = descriptionPage;
+  document.querySelector('.popup').classList.add('popup_opened');
+
 });
 
 
 
 document.querySelector('.popup__container-close').addEventListener('click', function () {
-  document.querySelector('.popup').classList.remove('popup__opened');
+  document.querySelector('.popup').classList.remove('popup_opened');
 });
 
 
@@ -20,6 +26,7 @@ myForm.addEventListener('submit', function (event) {
 
   document.querySelector('.profile__info-name').textContent = valName;
   document.querySelector('.profile__info-description').textContent = valJob;
-  document.querySelector('.popup').classList.remove('popup__opened');
+  document.querySelector('.popup').classList.remove('popup_opened');
 
 });
+
