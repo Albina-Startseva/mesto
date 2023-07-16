@@ -6,7 +6,7 @@
     margin-top: 22px;
     display: grid;
     grid-template-columns: 1fr 24px;
-    grid-template-rows: 39px 1fr;
+    grid-template-rows: 39px 18px;
     column-gap: 18px;
     row-gap: 16px;
 }
