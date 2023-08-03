@@ -1,0 +1,10 @@
+.popup-card__container-form {
+    margin: 0 auto;
+    max-width: 358px;
+}
+
+@media screen and (max-width: 530px) { 
+    .popup-card__container-form {
+        max-width: 238px;
+    }
+}

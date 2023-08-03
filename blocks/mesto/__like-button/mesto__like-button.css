@@ -1,0 +1,10 @@
+.mesto__like-button {
+    background: url('../../../images/like_black.svg');
+    width: 22px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-right: 20px;
+    opacity: 1;
+}

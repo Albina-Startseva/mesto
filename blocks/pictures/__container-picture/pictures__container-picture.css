@@ -1,0 +1,7 @@
+.pictures__container-picture {
+    max-width: 75vw;
+    max-height: 75vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

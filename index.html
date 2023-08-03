@@ -27,48 +27,7 @@
             <button type="button" class="profile__button"></button>
         </section>
         <section class="mesto">
-            <div class="mesto__items">
-                <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Карачаевск</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
-            <div class="mesto__items">
-                <img src="./images/elbrus.jpg" alt="Эльбрус" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Гора Эльбрус</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
-            <div class="mesto__items">
-                <img src="./images/donbai.jpg" alt="Донбай" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Донбай</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
-            <div class="mesto__items">
-                <img src="./images/elbrus.jpg" alt="Эльбрус" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Гора Эльбрус</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
-            <div class="mesto__items">
-                <img src="./images/donbai.jpg" alt="Донбай" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Донбай</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
-            <div class="mesto__items">
-                <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="mesto__items-image">
-                <div class="mesto__item">
-                    <h2 class="mesto__item-name">Карачаево-Черкесская Республика</h2>
-                    <button type="button" class="mesto__item-btn mesto__like-button"></button>
-                </div>
-            </div>
+
         </section>
         <section class="popup">
             <div class="popup__container">
@@ -81,10 +40,38 @@
                 <button type="button" class="popup__container-close"></button>
             </div>
         </section>
+        <section class="popup-card">
+            <div class="popup-card__container">
+                <h2 class="popup-card__container-title">Новое место</h2>
+                <form class="popup-card__container-form" name="popupCard">
+                    <input name="nameCard" id="test" placeholder="Название" type="text" class="popup-card__container-text">
+                    <input name="imgCard" id="test1" placeholder="Ссылка на картинку" type="text" class="popup-card__container-text">
+                    <button type="submit" class="popup-card__container-save popup-card__save-button">Создать</button>
+                </form>
+                <button type="button" class="popup-card__container-close"></button>
+            </div>
+        </section>
+        <section  class="pictures">
+            <div  class="pictures__container">
+                <img class="pictures__container-picture" alt="Изображение города">
+                <p class="pictures__container-text"></p>
+                <button onclick="hideModal();" type="button" class="pictures__container-close"></button>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <p class="footer__text">© 2020 Mesto Russia</p>
     </footer>
+    <template id="mestoCard">   
+        <div class="mesto__items">
+            <img alt="Изображение города" onclick="displayModal(this)" class="mesto__items-image">
+            <button type="button" class="mesto__items-close"></button>
+            <div class="mesto__item">
+                <h2 class="mesto__item-name"></h2>
+                <button type="button" class="mesto__item-btn"></button>
+            </div>
+        </div>
+    </template>   
     <script src="./scripts/script.js"></script>
 </body>
 

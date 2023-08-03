@@ -13,9 +13,11 @@
 @import url(../blocks/mesto/mesto.css);
 @import url(../blocks/mesto/__items/mesto__items.css);
 @import url(../blocks/mesto/__items-image/mesto__items-image.css);
+@import url(../blocks/mesto/__items-close/mesto__items-close.css);
 @import url(../blocks/mesto/__item/mesto__item.css);
 @import url(../blocks/mesto/__item-name/mesto__item-name.css);
 @import url(../blocks/mesto/__item-btn/mesto__item-btn.css);
+@import url(../blocks/mesto/__like-button/mesto__like-button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/popup/popup.css);
@@ -26,8 +28,20 @@
 @import url(../blocks/popup/__container-save/popup__container-save.css);
 @import url(../blocks/popup/__container-close/popup__container-close.css);
 @import url(../blocks/popup/__container-form/popup__container-form.css);
-
-
+@import url(../blocks/popup-card/popup-card.css);
+@import url(../blocks/popup-card/_opened/popup-card_opened.css);
+@import url(../blocks/popup-card/__container/popup-card__container.css);
+@import url(../blocks/popup-card/__container-title/popup-card__container-title.css);
+@import url(../blocks/popup-card/__container-text/popup-card__container-text.css);
+@import url(../blocks/popup-card/__container-save/popup-card__container-save.css);
+@import url(../blocks/popup-card/__container-close/popup-card__container-close.css);
+@import url(../blocks/popup-card/__container-form/popup-card__container-form.css);
+@import url(../blocks/pictures/pictures.css);
+@import url(../blocks/pictures/__container/pictures__container.css);
+@import url(../blocks/pictures/__container-picture/pictures__container-picture.css);
+@import url(../blocks/pictures/__container-text/pictures__container-text.css);
+@import url(../blocks/pictures/__opened/pictures__opened.css);
+@import url(../blocks/pictures/__container-close/pictures__container-close.css);
 
 
 

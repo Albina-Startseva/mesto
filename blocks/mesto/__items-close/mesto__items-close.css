@@ -1,0 +1,16 @@
+.mesto__items-close {
+    background: url(../../../images/delet.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    border: none;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.mesto__items-close:hover {
+    opacity: 0.6;
+}
